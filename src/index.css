@@ -72,8 +72,30 @@ h1 {
   text-align: center;
   font-style: italic;
 }
-.img-info {
+.img-container {
   width: 100%;
+  margin: 0 40px;
+  display: flex;
+  justify-content: space-evenly;
 }
 .large-img {
+  max-width: 50%;
+  max-height: 600px;
+}
+.img-info {
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+}
+.img-info p {
+  flex-wrap: wrap;
+  font-weight: 100;
+  margin: 20px 0;
+}
+.photographer {
+  display: flex;
+}
+.photographer h2 {
+  margin: 20px;
+  font-weight: 100;
 }

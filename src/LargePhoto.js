@@ -17,8 +17,17 @@ const LargePhoto = () => {
           </Link>
         </div>
       </div>
-      <div className="img-info">
+      <div className="img-container">
         <img className="large-img" src={image.regular}></img>
+        <div className="img-info">
+          <div className="photographer">
+            <h2>
+              {user.first_name} {user.last_name}
+            </h2>
+            <img src={user.profile_image.medium}></img>
+          </div>
+          {user.bio && <p>Bio: {user.bio}</p>}
+        </div>
       </div>
     </div>
   );
