@@ -1,4 +1,4 @@
-import { BrowserRouter as HashRouter, Routes, Route } from 'react-router-dom';
+import { Routes, Route } from 'react-router-dom';
 import Home from './Home';
 import LargePhoto from './LargePhoto';
 
