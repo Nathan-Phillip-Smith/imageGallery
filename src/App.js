@@ -5,7 +5,7 @@ import LargePhoto from './LargePhoto';
 const App = () => {
   return (
     <>
-      <Router>
+      <Router basename={`/${process.env.PUBLIC_URL}`}>
         <Route path="/imageGallery" Component={Home} />
         <Route path="/imageGallery/photo" Component={LargePhoto}></Route>
       </Router>
