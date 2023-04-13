@@ -18,7 +18,7 @@ const LargePhoto = () => {
         </div>
       </div>
       <div className="img-container">
-        <img className="large-img" src={image.regular}></img>
+        <img className="large-img" src={image.raw}></img>
         <div className="img-info">
           <div className="photographer">
             <h2>
