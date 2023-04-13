@@ -6,8 +6,8 @@ const App = () => {
   return (
     <>
       <Routes>
-        <Route exact path="/" Component={Home} />
-        <Route exact path="/photo" Component={LargePhoto}></Route>
+        <Route exact path="/imageGallery" Component={Home} />
+        <Route exact path="/imageGallery/photo" Component={LargePhoto}></Route>
       </Routes>
     </>
   );
