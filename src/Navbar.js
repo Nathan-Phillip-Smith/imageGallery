@@ -1,6 +1,6 @@
 import categories from './data';
 import { useContext, useState } from 'react';
-import { FeedContext } from './App';
+import { FeedContext } from './Home';
 
 const Navbar = () => {
   const [bold, setBold] = useState('wallpapers');

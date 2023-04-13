@@ -1,5 +1,5 @@
 import { useContext } from 'react';
-import { FeedContext } from './App';
+import { FeedContext } from './Home';
 import PhotoComp from './PhotoComp';
 
 const Feed = () => {

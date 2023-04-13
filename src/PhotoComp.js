@@ -1,9 +1,17 @@
+import { Link } from 'react-router-dom';
+
 const PhotoComp = ({ photo }) => {
   const { user, urls } = photo;
 
   return (
     <>
-      <img className="img" src={urls.regular} />
+      <Link
+        className="img"
+        to="/photo"
+        state={{ image: urls, user: user, fromImage: true }}
+      >
+        <img className="img" src={urls.regular}></img>
+      </Link>
       <a
         className="credit"
         target="_blank"
